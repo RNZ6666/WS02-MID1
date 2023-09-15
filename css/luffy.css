@@ -1,0 +1,270 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    border: 2px solid black;
+}
+    header{
+        background-image: url('Downloads/shank&luffy.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+    padding: 10px;
+    text-align: center;
+    border: 20px solid #D89501;
+    border-style: ridge;
+        
+    }
+    h1{
+        
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 50px;
+    color: #E3CE4B;
+    -webkit-text-stroke:0.5px #D42341;
+    padding: none;
+    text-shadow:0 5px 6px rgb(0, 0, 0) ;
+    }
+    h2{
+       
+        text-align: center;
+        color: black;
+        font-size: 45px;
+        font-weight: 600;
+        font-stretch: condensed;
+        -webkit-text-stroke:0.1px white ;
+         font-family: 'Averia Serif Libre', cursive;
+         text-shadow:0 3px 3px black ;
+         padding-bottom: 0;
+    }
+    
+    header p{
+        font-family: 'Averia Serif Libre', cursive;
+        font-size: 20px;
+        font-weight: 500;
+        text-shadow:0 4px 5px grey ;
+        color: aliceblue;
+    }
+    header img{
+        border-radius:50px;
+        height: 300px;
+        width: 300px;
+        border: 10px  #D89501  ;
+        border-style: groove;
+        box-shadow:0 7px 8px rgb(0, 0, 0);
+        margin-top: 50px;
+        margin-bottom: 20px;
+    
+    }
+     
+
+    ol li{
+        border:3px solid #EAC5BC ;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: 'Averia Serif Libre', cursive; ;
+        font-size: 20px;    
+        margin-left: 300px ;
+        margin-right: 340px;
+        list-style: none;
+    } 
+
+
+    ol p{
+        border:3px solid #EAC5BC ;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: 'Averia Serif Libre', cursive; ;
+        font-size: 20px;    
+        margin-left: 300px ;
+        margin-right: 340px;
+        list-style: none;
+
+    }
+    ul p a{
+        color:#3F7EBC;
+        font-family: 
+        'Averia Serif Libre', cursive;
+        font-size: 30px ;
+        font-weight: 700;
+        -webkit-text-stroke:0.5px whitesmoke ;
+        text-shadow:0 5px 2px black;
+
+    }
+  
+
+
+
+
+
+     .content{
+   
+        border: 10px solid burlywood;
+        background-image: url('https://wallpaperaccess.com/full/4006245.jpg');
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+     }
+
+     .slider{
+        position:relative;
+        max-width:85%;
+        margin:0 auto;
+        }
+        
+        .pic-holder{
+            border: 15px ridge #C8AB85;
+        display:block;
+        margin-top:10px;
+        margin-left:  auto;
+        margin-right:  auto;
+        padding:0px;
+        border-radius:30px; 
+        box-shadow: 0 0 15px rgb(0, 0, 0); 
+        display:flex;
+        aspect-ratio:15/7;
+        overflow-x:hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        } 
+
+
+        .slider img{
+        flex: 1 0 100%;
+        scroll-snap-align:start;
+        object-fit: cover;
+        }
+        
+        .slider-nav{ 
+        display:flex;
+        border-radius:10px;
+        background-color:#C48016;
+        padding:10px;
+        position:absolute;
+        bottom: 2.5 rem;
+        left:50%;
+        transform: translateX(-50%);
+        z-index:2;
+        }
+        
+        .slider-nav a{
+        width:0.8rem;
+        height:0.8rem;
+        border-radius:50%;
+        background-color: #B41617;
+        opacity:0.75;
+        transition: opacity ease 250ms;
+        margin-right:10px;
+        margin-left:10px;
+        }
+        
+        .slider-nav a:hover{
+        opacity: 5;
+        }
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        }
+        
+        .pic-containers {
+        
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap:30px;
+        }
+        
+        .friend-image {
+        width: 80px;
+        height: 80px;
+        size: cover;
+        border-radius: 30%;
+        border: 6px  #C8AB85;
+        border-style: groove;
+        box-shadow: 0 0 5px rgb(0, 0, 0);
+        padding:4px;
+        }
+        
+
+     
+     .parts{
+        font-size: 23px;
+        max-width: 80%;
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+        }
+
+     .caption{
+        font-family: 'Averia Serif Libre', cursive;
+        font-size: 18px;
+        display: block;
+        margin: 0px auto;
+        margin-left: 5%;
+        color: white;
+        -webkit-text-stroke:0.5px black;
+        text-shadow:0 0 4px black;
+        }
+        
+
+
+     ul a{
+
+        color: black;
+        border-bottom: #EAC5BC;
+        text-shadow: none;
+     }
+
+
+
+     ul{ 
+
+        text-align: center;
+        font-family: 'Averia Serif Libre', cursive;
+        color: white;
+        list-style: none;
+        padding: 3px;
+        margin: 2px;
+        text-shadow:0 1px 1px black;
+     }
+
+
+
+
+
+
+
+     ul li{
+
+        align-content: center;
+        background-color: #D1BA91;
+        border:2px solid rgb(52, 50, 50) ;
+        margin-left: 300px ;
+        margin-right: 300px;
+        box-shadow: 0 2px 2px black;
+
+     }
+
+
+
+
+
+    
+    footer{
+
+        margin-top: 20px;
+        padding: 40px 20px;
+        
+    }
+
+
+    footer ul{
+
+        text-align: center;
+    }
+
+
+    footer ul li{
+
+        display: inline-block;
+        margin: 0 5px;
+    }
